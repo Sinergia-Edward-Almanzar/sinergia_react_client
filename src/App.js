@@ -2,9 +2,10 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import sinergialogo from './sinergia_logo.png';
 import './App.css';
-import './burgermenu.css';
+import './components/burgermenu.css';
 import { bubble as Menu } from 'react-burger-menu'
-import Burgermenu from './components/burgermenu';
+import Navbarbostrap from './components/navbar';
+
 
 class App extends Component {
   render() {
@@ -30,6 +31,7 @@ class App extends Component {
 
 
   <main id="page-wrap">
+    <Navbarbostrap/>
       <div>
       <h1>dbqidbquwbduqwibfiuqbfuiqwbfqiuwfbiuqwbfiuqwbf</h1>
       <h2> duibfiubefgyueibgiweugbwiuebguiwebguiwebgiuwebgiuwe</h2>
