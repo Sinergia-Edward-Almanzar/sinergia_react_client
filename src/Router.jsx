@@ -26,7 +26,18 @@ export default class Router extends React.Component{
       <ReactRouter>
         <App>
           <Route exact path='/' component={Home} > </Route>
+          <Route exact path='/parentcenter' component={Parentcenter} > </Route>
           <Route exact path='/About' component={About} > </Route>
+          <Route exact path='/services' component={Services} > </Route>
+          <Route exact path='/media' component={Media} > </Route>
+          <Route exact path='/getinvolved' component={Getinvolved} > </Route>
+          <Route exact path='/calendar' component={Calendar} > </Route>
+          <Route exact path='/blog' component={Blog} > </Route>
+          <Route exact path='/donate' component={Donate} > </Route>
+          <Route exact path='/resources' component={Resources} > </Route>
+          <Route exact path='/contact' component={Contact} > </Route>
+          <Route exact path='/carrers' component={Carrers} > </Route>
+          <Route exact path='/settings' component={Settings} > </Route>
         </App>
 
       </ReactRouter>

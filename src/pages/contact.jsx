@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React  from 'react';
 
 
 
@@ -9,7 +9,7 @@ export default class Contact extends React.Component{
     return(
       <div className="landing-page">
 
-        <h1> ABOUT PAGE </h1>
+        <h1> CONTACT PAGE </h1>
 
       </div>
     );

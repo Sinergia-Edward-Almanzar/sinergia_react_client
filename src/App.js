@@ -22,17 +22,18 @@ class App extends Component {
       <img src={sinergialogo} className="App-logo" alt="logo" />
       </Link>
       <Link to='/' > HOME </Link>
-      <Link to='/' > PARENT CENTER </Link>
+      <Link to='/parentcenter' > PARENT CENTER </Link>
       <Link to='/About' > ABOUT </Link>
-      <Link to='/' > SERVICES </Link>
-      <Link to='/' > RESOURCES </Link>
-      <Link to='/' > MEDIA </Link>
-      <Link to='/' > GET INVOLVED </Link>
-      <Link to='/' > CALENDAR </Link>
-      <Link to='/' > BLOG </Link>
-      <Link to='/' > DONATE </Link>
-      <Link to='/' > CONTACT </Link>
-      <Link to='/' > CARRERS </Link>
+      <Link to='/services' > SERVICES </Link>
+      <Link to='/resources' > RESOURCES </Link>
+      <Link to='/media' > MEDIA </Link>
+      <Link to='/getinvolved' > GET INVOLVED </Link>
+      <Link to='/calendar' > CALENDAR </Link>
+      <Link to='/blog' > BLOG </Link>
+      <Link to='/donate' > DONATE </Link>
+      <Link to='/contact' > CONTACT </Link>
+      <Link to='/carrers' > CARRERS </Link>
+      <Link to='/settings' > SETTINGS </Link>
       <a onClick={ this.showSettings } className="menu-item--small" href="">SETTINGS</a>
     </MenuBubble>
 

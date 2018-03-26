@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 
 
@@ -9,7 +9,7 @@ export default class Parentcenter extends React.Component{
     return(
       <div className="landing-page">
 
-        <h1> ABOUT PAGE </h1>
+        <h1> PARENT CENTER </h1>
 
       </div>
     );
