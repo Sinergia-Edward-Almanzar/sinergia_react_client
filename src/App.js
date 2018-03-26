@@ -13,8 +13,9 @@ class App extends Component {
   render() {
     return (
 
-    <div id="">
+    <div className=''>
     <MenuBubble
+      left
       pageWrapId={ "" }
       outerContainerId={ "" }
       >
@@ -40,8 +41,9 @@ class App extends Component {
 
 
       <Navbarbostrap/>
-
-      {this.props.children}
+          <div className='App'>
+            {this.props.children}
+          </div>
 
 
   </div>
